@@ -8,6 +8,8 @@ GET     /                           controllers.HomeController.index
 # foo
 GET     /foo                           controllers.HomeController.foo
 
+GET     /foo2                           controllers.HomeController.foo2
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 

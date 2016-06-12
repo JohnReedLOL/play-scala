@@ -24,5 +24,14 @@ class HomeController @Inject() extends Controller {
   def foo = Action {
       Ok("foo")
   }
+  
+  import play.api.http.HttpEntity
+
+    def foo2 = Action {
+      Result(
+        header = ResponseHeader(200, Map.empty),
+        body = HttpEntity.Strict(akka.util.ByteString("foo2"), Some("text/plain"))
+      )
+    }
 
 }

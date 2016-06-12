@@ -8674,3 +8674,359 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
 Scala compilation took 3.721387478 s
 Attempting to call com.sun.tools.javac.api.JavacTool@31603fb0 directly...
+Java compilation took 0.39938405 s
+Java analysis took 0.033939662 s
+Java compile + analysis took 0.438322856 s
+Invalidating /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+The /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
+	foo.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+None of the modified names appears in /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
+Invalidating /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+The /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
+	foo.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+New invalidations:
+	Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java)
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java)
+Including /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala by /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/index.template.scala by /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala
+Including /home/johnreed/temp/play-scala/app/controllers/HomeController.scala by /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/index.template.scala
+Including /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala by /home/johnreed/temp/play-scala/app/controllers/HomeController.scala
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 5 s, completed Jun 12, 2016 12:29:11 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@51c5ee73, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 7ae8c21d, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+Read from stdout: body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+        body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+Read from stdout: ^
+                                 ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed Jun 12, 2016 12:52:20 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bf67bb0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 7d1d6f60, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+Read from stdout: body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+        body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+Read from stdout: ^
+                                 ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed Jun 12, 2016 12:52:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@70d4e66e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 49f67f57, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:33: not found: value ByteString
+Read from stdout: body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+        body = HttpEntity.Strict(ByteString("foo2"), Some("text/plain"))
+Read from stdout: ^
+                                 ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed Jun 12, 2016 12:52:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@47d536ac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java, /home/johnreed/temp/play-scala/app/controllers/HomeController.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 5 Scala sources and 1 Java source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 311c6785, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 1.752410789 s
+Attempting to call com.sun.tools.javac.api.JavacTool@43a10ad8 directly...
+Java compilation took 0.05093538 s
+Java analysis took 0.007156275 s
+Java compile + analysis took 0.060589853 s
+Invalidating /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+The /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
+	foo2.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+None of the modified names appears in /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
+Invalidating /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+The /home/johnreed/temp/play-scala/app/controllers/HomeController.scala source file has the following regular definitions changed:
+	foo2.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala: Set(foo2)
+Invalidating /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+The /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
+	foo2.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+New invalidations:
+	Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java)
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala, /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java)
+Including /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala by /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/index.template.scala by /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala
+Including /home/johnreed/temp/play-scala/app/controllers/HomeController.scala by /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/index.template.scala
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Jun 12, 2016 12:53:06 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@662ae792, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 12:53:06 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@161d9e87, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 12:53:06 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@35000c4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@5d1d5807), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@61f1a1fe))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@35dfb824), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@36dd23d0), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@137886c))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@3e5a5c1b, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T04:53:08.960Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T04:53:09.589Z after 1s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T04:53:09.659Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T04:53:09.733Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T04:53:09.814Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T04:53:09.847Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@74262769, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T04:53:10.645Z.

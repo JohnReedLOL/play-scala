@@ -1,5 +1,5 @@
-New log file opened at Sun Jun 12 01:03:35 EDT 2016 by 16928@johnreed-Galago-UltraPro
-jvm 16928@johnreed-Galago-UltraPro
+New log file opened at Sun Jun 12 01:04:26 EDT 2016 by 17197@johnreed-Galago-UltraPro
+jvm 17197@johnreed-Galago-UltraPro
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.73-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /home/johnreed/temp/play-scala/project, returning: (play-scala-build)
 Loading project definition from /home/johnreed/temp/play-scala/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@42395305, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@5f915d00, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,7 +69,7 @@ Set current project to play-scala (in build file:/home/johnreed/temp/play-scala/
 > server-handle-next-server-request
 > {file:/home/johnreed/temp/play-scala/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@7ac44a5, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@32a92cb7, check cycles: false
 Read from stdout: Updating {file:/home/johnreed/temp/play-scala/}root...
 Updating {file:/home/johnreed/temp/play-scala/}root...
 Other repositories:
@@ -84,7 +84,7 @@ resolving dependencies for configuration 'compile'
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 Read from stdout: Resolving org.scala-lang#scala-library;2.11.7 ...
 Resolving org.scala-lang#scala-library;2.11.7 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3422365d
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9416b1b
 sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -1311,22 +1311,57 @@ sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 == resolving dependencies com.typesafe.play#play-ws_2.11;2.5.4->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-ws_2.11;2.5.4->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-Read from stdout: Resolving scala.trace#scala-trace-debug_2.11;2.2.14 ...
-Resolving scala.trace#scala-trace-debug_2.11;2.2.14 ...
-sbt-chain: Checking cache for: dependency: scala.trace#scala-trace-debug_2.11;2.2.14 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: scala.trace#scala-trace-debug_2.11;2.2.14
-	found scala.trace#scala-trace-debug_2.11;2.2.14 in sbt-chain
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+Read from stdout: Resolving scala.trace#scala-trace-debug_2.11;2.2.17 ...
+Resolving scala.trace#scala-trace-debug_2.11;2.2.17 ...
+sbt-chain: Checking cache for: dependency: scala.trace#scala-trace-debug_2.11;2.2.17 {compile=[default(compile)]}
+Read from stdout: Resolving scala.trace#scala-trace-debug_2.11;2.2.17 ...
+Resolving scala.trace#scala-trace-debug_2.11;2.2.17 ...
+sbt-chain-delegate: Checking cache for: dependency: scala.trace#scala-trace-debug_2.11;2.2.17 {compile=[default(compile)]}
+		tried /home/johnreed/.ivy2/local/scala.trace/scala-trace-debug_2.11/2.2.17/ivys/ivy.xml
+	local: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried /home/johnreed/Applications/activator-dist-1.3.9/repository/scala.trace/scala-trace-debug_2.11/2.2.17/ivys/ivy.xml
+	activator-local: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried /home/johnreed/.activator/repository/scala.trace/scala-trace-debug_2.11/2.2.17/ivys/ivy.xml
+	activator-launcher-local: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried https://repo1.maven.org/maven2/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+	public: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried http://repo.typesafe.com/typesafe/releases/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+	typesafe-releases: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried http://repo.typesafe.com/typesafe/ivy-releases/scala.trace/scala-trace-debug_2.11/2.2.17/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/scala.trace/scala-trace-debug_2.11/2.2.17/ivys/ivy.xml
+	typesafe-ivy-releasez: no ivy file found for scala.trace#scala-trace-debug_2.11;2.2.17
+		tried http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+	johnreed2 bintray: found md file for scala.trace#scala-trace-debug_2.11;2.2.17
+		=> http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom (2.2.17)
+downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom ...
+	johnreed2 bintray: downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+	johnreed2 bintray: downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom.sha1
+sha1 OK for http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.pom
+	[SUCCESSFUL ] scala.trace#scala-trace-debug_2.11;2.2.17!scala-trace-debug_2.11.pom(pom.original) (869ms)
+		tried /home/johnreed/.ivy2/local/scala.trace/scala-trace-debug_2.11/2.2.17/jars/scala-trace-debug_2.11.jar
+		tried /home/johnreed/Applications/activator-dist-1.3.9/repository/scala.trace/scala-trace-debug_2.11/2.2.17/jars/scala-trace-debug_2.11.jar
+		tried /home/johnreed/.activator/repository/scala.trace/scala-trace-debug_2.11/2.2.17/jars/scala-trace-debug_2.11.jar
+		tried https://repo1.maven.org/maven2/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+		tried http://repo.typesafe.com/typesafe/releases/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+		tried http://repo.typesafe.com/typesafe/ivy-releases/scala.trace/scala-trace-debug_2.11/2.2.17/jars/scala-trace-debug_2.11.jar
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/scala.trace/scala-trace-debug_2.11/2.2.17/jars/scala-trace-debug_2.11.jar
+		tried http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+	found scala.trace#scala-trace-debug_2.11;2.2.17 in johnreed2 bintray
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 Read from stdout: Resolving mysql#mysql-connector-java;5.1.38 ...
 Resolving mysql#mysql-connector-java;5.1.38 ...
@@ -2135,17 +2170,17 @@ dependency descriptor has been mediated: dependency: com.typesafe.akka#akka-stre
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->runtime]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->compile]
@@ -2950,17 +2985,17 @@ dependency descriptor has been mediated: dependency: com.typesafe.akka#akka-stre
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->runtime]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->compile]
@@ -4411,17 +4446,17 @@ dependency descriptor has been mediated: dependency: com.typesafe.akka#akka-stre
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->runtime]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->compile]
@@ -5228,17 +5263,17 @@ dependency descriptor has been mediated: dependency: com.typesafe.akka#akka-stre
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->runtime]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->compile]
@@ -6045,17 +6080,17 @@ dependency descriptor has been mediated: dependency: com.typesafe.akka#akka-stre
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
 == resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.10 [runtime->compile]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.4 [compile->master]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->default(compile)]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->runtime]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->compile]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.14->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.14 [compile->master]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->default(compile)]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->runtime]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->compile]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies scala.trace#scala-trace-debug_2.11;2.2.17->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->scala.trace#scala-trace-debug_2.11;2.2.17 [compile->master]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->default(compile)]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->runtime]
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.38 [compile->compile]
@@ -7676,7 +7711,14 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.5.4!play-jdbc_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.5.4!play-cache_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.5.4!play-ws_2.11.jar
-	[NOT REQUIRED] scala.trace#scala-trace-debug_2.11;2.2.14!scala-trace-debug_2.11.jar
+		tried http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+Read from stdout: downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar ...
+downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar ...
+	johnreed2 bintray: downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+	johnreed2 bintray: downloading http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar.sha1
+sha1 OK for http://dl.bintray.com/content/johnreed2/maven/scala/trace/scala-trace-debug_2.11/2.2.17/scala-trace-debug_2.11-2.2.17.jar
+Read from stdout: 	[SUCCESSFUL ] scala.trace#scala-trace-debug_2.11;2.2.17!scala-trace-debug_2.11.jar (1304ms)
+	[SUCCESSFUL ] scala.trace#scala-trace-debug_2.11;2.2.17!scala-trace-debug_2.11.jar (1304ms)
 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.38!mysql-connector-java.jar
 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
@@ -7835,7 +7877,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
-:: resolution report :: resolve 3007ms :: artifacts dl 60ms
+:: resolution report :: resolve 4992ms :: artifacts dl 1384ms
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT compile produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-compile.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT runtime produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT test produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-test.xml
@@ -7850,7 +7892,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT pom produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-pom.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT scala-tool produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-scala-tool.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT fork-run produced in /home/johnreed/temp/play-scala/target/resolution-cache/reports/play-scala-play-scala_2.11-fork-run.xml
-	resolve done (3007ms resolve - 60ms download)
+	resolve done (4992ms resolve - 1384ms download)
 Read from stdout: Done updating.
 Done updating.
 
@@ -7869,18 +7911,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 4 s, completed Jun 12, 2016 1:03:44 AM
+Total time: 7 s, completed Jun 12, 2016 1:04:38 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/johnreed/temp/play-scala/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@4351091e, check cycles: false
-Total time: 0 s, completed Jun 12, 2016 1:03:44 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@15fea073, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:38 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/johnreed/temp/play-scala/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@13e8a8e4, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@69117bbd, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -7897,36 +7939,71 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed Jun 12, 2016 1:03:45 AM
+Total time: 0 s, completed Jun 12, 2016 1:04:38 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/johnreed/temp/play-scala/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@436dfc82, check cycles: false
-Total time: 0 s, completed Jun 12, 2016 1:03:45 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@792f6e05, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:38 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@51a9b454, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 96750f9, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 2.967831733 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed Jun 12, 2016 1:04:45 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@286a8f5c, check cycles: false
-Total time: 0 s, completed Jun 12, 2016 1:04:00 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@1453d866, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:45 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@11955620, check cycles: false
-Total time: 0 s, completed Jun 12, 2016 1:04:02 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@624ecbef, check cycles: false
-Total time: 0 s, completed Jun 12, 2016 1:04:03 AM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@65ff07df, check cycles: false
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b0203e7, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -7948,7 +8025,1355 @@ Copy resource mappings:
 	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
 	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 1 s, completed Jun 12, 2016 1:04:10 AM
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@605182c1), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@a2d9d1a))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@4aa14408), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@2c02c50b), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@7b49e0f1))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@1920fec5, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:04:48.505Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:04:48.968Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:04:49.056Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:04:49.118Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:04:49.168Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:04:49.195Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@214fa1c1, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:04:49.846Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:04:50.532Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 4 seconds, 333 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 4 seconds, 333 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 5 s, completed Jun 12, 2016 1:04:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@f7923e8, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@308d8f0f, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@ffe6373, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 2e8af376, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 0.878158652 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Jun 12, 2016 1:04:58 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@49ae72c9, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:58 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ddaee05, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:04:58 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@78ddbbab, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@372f9f69), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@470717ef))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@5ea3e47), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@4ab4f147), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@12bfbaf))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@7a61f549, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:05:01.139Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:05:01.735Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:05:01.836Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:05:01.907Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:05:01.973Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:05:02.002Z after 1s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@3da39c32, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:05:02.720Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:05:03.296Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 984 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 984 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 5 s, completed Jun 12, 2016 1:05:03 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@bc6321f, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:05:03 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@4f2f879a, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:05:04 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@44f5e9f4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 0 s, completed Jun 12, 2016 1:05:11 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@52c6efcd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1e502032, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: object form is not a member of package views.html
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: object form is not a member of package views.html
+Read from stdout: val badRequest = BadRequest(views.html.form(formWithErrors))
+            val badRequest = BadRequest(views.html.form(formWithErrors))
+Read from stdout: ^
+                                                   ^
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: not found: value formWithErrors
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: not found: value formWithErrors
+Read from stdout: val badRequest = BadRequest(views.html.form(formWithErrors))
+            val badRequest = BadRequest(views.html.form(formWithErrors))
+Read from stdout: ^
+                                                        ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed Jun 12, 2016 1:12:52 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@40d28e0f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1000cdbd, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 1.038001552 s
+Invalidating /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+The /home/johnreed/temp/play-scala/app/controllers/HomeController.scala source file has the following regular definitions changed:
+	dontCare.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1fc25143, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1168e794, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@606caa99, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@15f3ba1a), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@2a8ff019))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1478fb0c), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@473ed306), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@4f158291))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@b57c80f, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:09.704Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.335Z after 1s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:10.423Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.493Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:10.538Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.565Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@5245f9d7, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:11.326Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:11.923Z after 0s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 902 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 902 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:11 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@23c899ab, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2bd4f220, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@6c57fbaf rejected from java.util.concurrent.ThreadPoolExecutor@2ccab03f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@6c57fbaf rejected from java.util.concurrent.ThreadPoolExecutor@2ccab03f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@66c51ccf, check cycles: false
+Exception in thread "sbt-bg-threads-2" java.lang.Error: java.lang.InterruptedException: sleep interrupted
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
+	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
+	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
+	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	... 2 more
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@689f2cd6, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d9a6659, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2dd7209, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@7dffac6b), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@3e9a56f5))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1a4ea25d), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@5d77befc), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@5debcdcd))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@25b26eee, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:14.348Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:14.903Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:14.996Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:15.054Z after 1s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:15.105Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:15.134Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@3a2a1e1b, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:15.906Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:16.535Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 857 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 857 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@70d3a032, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c6a2239, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:17 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5af9ff03, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@60693870, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ed3ebb9, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@5095133f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@75a06a5a), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@51f37648))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@42087420), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@75199839), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@39dce7a))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@11b208d9, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:43.211Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:43.901Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:43.988Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:44.058Z after 1s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:44.121Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:44.149Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@61f75777, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:44.870Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:45.425Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 881 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 881 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:45 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@706bc1ba, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:45 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@170002e7, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:46 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2cc5ee65, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 5
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@c8e2ad1, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1186e168, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@7ca1c072, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@70653493), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@36bbc56a))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@6e03f8ee), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@fb7c6fe), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@56afaa37))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@38242caa, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:52.318Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:52.959Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.023Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:53.091Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.152Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:53.180Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@5da4a8b6, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.922Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:54.579Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 958 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 958 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c605b7b, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@158436e, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b8590f6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 0 s, completed Jun 12, 2016 1:13:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@46e21544, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 111eeae4, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 0.820137946 s
+Invalidating /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+The /home/johnreed/temp/play-scala/app/controllers/HomeController.scala source file has the following regular definitions changed:
+	redirect.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Jun 12, 2016 1:22:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 6
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@e4c17e6, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:22:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@60e687d0, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:22:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d74c1ac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@644b1743), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@6908c99a))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@684d7777), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@6fea576b), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@53a7a4da))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@b57c80f, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:22:49.440Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:22:50.010Z after 1s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:22:50.081Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:22:50.142Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:22:50.213Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:22:50.242Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@5245f9d7, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:22:51.049Z.
+[DEBUG] [06/12/2016 01:22:51.761] [application-akka.actor.default-dispatcher-2] [EventStream] shutting down: StandardOutLogger started
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:22:51.777Z after 0s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 4 seconds, 10 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 4 seconds, 10 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 5 s, completed Jun 12, 2016 1:22:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@4a5a449a, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:22:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@accb9f8, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:22:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@f491565, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 0 s, completed Jun 12, 2016 1:22:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@308639e5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 2ac093a0, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 0.582137107 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 1 s, completed Jun 12, 2016 2:03:01 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@c8aac52, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 93a28fb, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 0.459367227 s
+Invalidating /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala)
+The /home/johnreed/temp/play-scala/target/scala-2.11/twirl/main/views/html/hello.template.scala source file has the following regular definitions changed:
+	notify, format, hello_Scope0, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, hello, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 1 s, completed Jun 12, 2016 9:34:34 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -7957,4 +9382,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 16928@johnreed-Galago-UltraPro logs at Sun Jun 12 01:04:20 EDT 2016, goodbye.
+Closing the 17197@johnreed-Galago-UltraPro logs at Sun Jun 12 09:47:28 EDT 2016, goodbye.

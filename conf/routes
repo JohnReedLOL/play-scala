@@ -10,6 +10,8 @@ GET     /foo                           controllers.HomeController.foo
 
 GET     /foo2                           controllers.HomeController.foo2
 
+GET   /foo3/:toPrint          controllers.HomeController.show(toPrint: String)
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 

@@ -25,6 +25,10 @@ class HomeController @Inject() extends Controller {
   def foo = Action {
       Ok( Pos() )
   }
+
+  def show(toPrint: String) = Action {
+    Ok(toPrint)
+  }
   
   import play.api.http.HttpEntity
 

@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
+import scala.trace.Pos
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -30,7 +31,7 @@ class HomeController @Inject() extends Controller {
     def foo2 = Action {
       Result(
         header = ResponseHeader(200, Map.empty),
-        body = HttpEntity.Strict(akka.util.ByteString("foo2"), Some("text/plain"))
+        body = HttpEntity.Strict(akka.util.ByteString( Pos() ), Some("text/plain"))
       )
     }
 

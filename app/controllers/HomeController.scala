@@ -23,11 +23,11 @@ class HomeController @Inject() extends Controller {
   }
   
   def foo = Action {
-      Ok( Pos() )
+    Redirect(routes.HomeController.show(Pos() + "\nRedirected"))
   }
 
   def show(toPrint: String) = Action {
-    Ok(toPrint)
+    Ok(toPrint + Pos())
   }
   
   import play.api.http.HttpEntity

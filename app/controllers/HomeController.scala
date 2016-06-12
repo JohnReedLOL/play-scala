@@ -23,7 +23,7 @@ class HomeController @Inject() extends Controller {
   }
   
   def foo = Action {
-      Ok("foo")
+      Ok( Pos() )
   }
   
   import play.api.http.HttpEntity
@@ -42,8 +42,10 @@ class HomeController @Inject() extends Controller {
         body = HttpEntity.Strict(akka.util.ByteString( Pos() ), Some("text/plain"))
       )
     }
+    
+    def foo2 = TODO
 
-    def foo2 = Action {
+    def redirect = Action {
         Redirect("https://www.google.com")
     }
 }

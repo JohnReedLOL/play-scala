@@ -8319,3 +8319,741 @@ Copy resource mappings:
 Total time: 0 s, completed Jun 12, 2016 1:05:11 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@52c6efcd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1e502032, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: object form is not a member of package views.html
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: object form is not a member of package views.html
+Read from stdout: val badRequest = BadRequest(views.html.form(formWithErrors))
+            val badRequest = BadRequest(views.html.form(formWithErrors))
+Read from stdout: ^
+                                                   ^
+Read from stdout: /home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: not found: value formWithErrors
+/home/johnreed/temp/play-scala/app/controllers/HomeController.scala:36: not found: value formWithErrors
+Read from stdout: val badRequest = BadRequest(views.html.form(formWithErrors))
+            val badRequest = BadRequest(views.html.form(formWithErrors))
+Read from stdout: ^
+                                                        ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed Jun 12, 2016 1:12:52 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@40d28e0f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/johnreed/temp/play-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1000cdbd, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/home/johnreed/Applications/jdk1.8.0_73/jre/lib/resources.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/rt.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/sunrsasign.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jsse.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jce.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/charsets.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/lib/jfr.jar:/home/johnreed/Applications/jdk1.8.0_73/jre/classes:/home/johnreed/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/johnreed/temp/play-scala/target/scala-2.11/classes:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/johnreed/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/johnreed/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/home/johnreed/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/joda-time/joda-time/2.9.2/jars/joda-time.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar:/home/johnreed/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-core/2.7.1/bundles/jackson-core.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-annotations/2.7.1/bundles/jackson-annotations.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.core/jackson-databind/2.7.1/bundles/jackson-databind.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.7.1/bundles/jackson-datatype-jdk8.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.7.1/bundles/jackson-datatype-jsr310.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar:/home/johnreed/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/bundles/scala-java8-compat_2.11.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/johnreed/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/johnreed/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/johnreed/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/johnreed/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/johnreed/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/johnreed/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar:/home/johnreed/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar:/home/johnreed/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/johnreed/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.4.jar:/home/johnreed/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.zaxxer/HikariCP/2.4.3/bundles/HikariCP.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.googlecode.usc/jdbcdslog/1.0.6.2/jars/jdbcdslog.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.h2database/h2/1.4.191/jars/h2.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/johnreed/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar:/home/johnreed/Applications/activator-dist-1.3.9/repository/com.google.guava/guava/19.0/bundles/guava.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/johnreed/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/johnreed/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/johnreed/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/johnreed/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/johnreed/sbtProjects/activator-dist-1.3.7/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/johnreed/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/home/johnreed/.ivy2/cache/scala.trace/scala-trace-debug_2.11/jars/scala-trace-debug_2.11-2.2.17.jar:/home/johnreed/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar
+Scala compilation took 1.038001552 s
+Invalidating /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Invalidating (transitively) by inheritance from /home/johnreed/temp/play-scala/app/controllers/HomeController.scala...
+Initial set of included nodes: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+Invalidated by transitive inheritance dependency: Set(/home/johnreed/temp/play-scala/app/controllers/HomeController.scala)
+The /home/johnreed/temp/play-scala/app/controllers/HomeController.scala source file has the following regular definitions changed:
+	dontCare.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in /home/johnreed/temp/play-scala/target/scala-2.11/routes/main/router/Routes.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1fc25143, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1168e794, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@606caa99, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@15f3ba1a), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@2a8ff019))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1478fb0c), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@473ed306), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@4f158291))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@b57c80f, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:09.704Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.335Z after 1s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:10.423Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.493Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:10.538Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:10.565Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@5245f9d7, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:11.326Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:11.923Z after 0s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 902 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 902 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:11 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@23c899ab, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2bd4f220, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@6c57fbaf rejected from java.util.concurrent.ThreadPoolExecutor@2ccab03f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@6c57fbaf rejected from java.util.concurrent.ThreadPoolExecutor@2ccab03f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@66c51ccf, check cycles: false
+Exception in thread "sbt-bg-threads-2" java.lang.Error: java.lang.InterruptedException: sleep interrupted
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
+	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
+	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
+	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
+	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	... 2 more
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@689f2cd6, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d9a6659, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:12 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2dd7209, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@7dffac6b), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@3e9a56f5))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1a4ea25d), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@5d77befc), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@5debcdcd))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@25b26eee, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:14.348Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:14.903Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:14.996Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:15.054Z after 1s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:15.105Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:15.134Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@3a2a1e1b, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:15.906Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:16.535Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 857 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 857 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@70d3a032, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:16 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c6a2239, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:17 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5af9ff03, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@60693870, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ed3ebb9, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@5095133f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@75a06a5a), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@51f37648))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@42087420), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@75199839), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@39dce7a))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@11b208d9, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:43.211Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:43.901Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:43.988Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:44.058Z after 1s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:44.121Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:44.149Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@61f75777, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:44.870Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:45.425Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 881 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 881 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:45 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@706bc1ba, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:45 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@170002e7, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:46 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2cc5ee65, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 5
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@c8e2ad1, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1186e168, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@7ca1c072, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@70653493), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@36bbc56a))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@6e03f8ee), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@fb7c6fe), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@56afaa37))
+Forking tests - parallelism = false
+Create a single-thread test executor
+Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@38242caa, false, [SuiteSelector])
+Read from stdout: ApplicationSpec:
+ApplicationSpec:
+Read from stdout: Routes
+Routes
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:52.318Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:52.959Z after 0s.
+Read from stdout: - should send 404 on a bad request
+- should send 404 on a bad request
+Read from stdout: HomeController
+HomeController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.023Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:53.091Z after 0s.
+Read from stdout: - should render the index page
+- should render the index page
+Read from stdout: CountController
+CountController
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.152Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:53.180Z after 0s.
+Read from stdout: - should return an increasing count
+- should return an increasing count
+    Produced 0 nested tasks and 3 events.
+  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@5da4a8b6, false, [SuiteSelector])
+Read from stdout: IntegrationSpec:
+IntegrationSpec:
+Read from stdout: Application
+Application
+[info] application - ApplicationTimer demo: Starting application at 2016-06-12T05:13:53.922Z.
+[info] application - ApplicationTimer demo: Stopping application at 2016-06-12T05:13:54.579Z after 1s.
+Read from stdout: - should work from within a browser
+- should work from within a browser
+    Produced 0 nested tasks and 1 events.
+Runner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.
+Read from stdout: ScalaTest
+ScalaTest
+Read from stdout: Run completed in 3 seconds, 958 milliseconds.
+Read from stdout: Total number of tests run: 4
+Read from stdout: Suites: completed 2, aborted 0
+Read from stdout: Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+Run completed in 3 seconds, 958 milliseconds.
+Total number of tests run: 4
+Suites: completed 2, aborted 0
+Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+Summary for JUnit not available.
+Read from stdout: Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed: Total 4, Failed 0, Errors 0, Passed 4
+Passed tests:
+	ApplicationSpec
+	IntegrationSpec
+Total time: 4 s, completed Jun 12, 2016 1:13:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c605b7b, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@158436e, check cycles: false
+Total time: 0 s, completed Jun 12, 2016 1:13:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/johnreed/temp/play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b8590f6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/johnreed/temp/play-scala/conf/logback.xml,/home/johnreed/temp/play-scala/target/scala-2.11/classes/logback.xml)
+	(/home/johnreed/temp/play-scala/conf/routes,/home/johnreed/temp/play-scala/target/scala-2.11/classes/routes)
+	(/home/johnreed/temp/play-scala/conf/application.conf,/home/johnreed/temp/play-scala/target/scala-2.11/classes/application.conf)
+Total time: 0 s, completed Jun 12, 2016 1:13:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request

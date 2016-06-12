@@ -28,11 +28,22 @@ class HomeController @Inject() extends Controller {
   
   import play.api.http.HttpEntity
 
-    def foo2 = Action {
+    def dontCare = Action {
+        {
+            val ok = Ok("Hello world!")
+            val notFound = NotFound
+            val pageNotFound = NotFound(<h1>Page not found</h1>)
+            // val badRequest = BadRequest(views.html.form(formWithErrors))
+            val oops = InternalServerError("Oops")
+            val anyStatus = Status(488)("Strange response type")
+        }
       Result(
         header = ResponseHeader(200, Map.empty),
         body = HttpEntity.Strict(akka.util.ByteString( Pos() ), Some("text/plain"))
       )
     }
 
+    def foo2 = Action {
+        Redirect("https://www.google.com")
+    }
 }

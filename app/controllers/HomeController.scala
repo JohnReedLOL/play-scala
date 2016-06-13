@@ -3,7 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
-// import scala.trace.Pos
+import scala.trace.Pos
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -23,7 +23,7 @@ class HomeController @Inject() extends Controller {
   }
   
   def foo = Action {
-    Redirect(routes.HomeController.show( /*Pos() +*/ "\nRedirected"))
+    Redirect(routes.HomeController.show( Pos() + "\n"))
   }
 
   def show(toPrint: String) = Action {

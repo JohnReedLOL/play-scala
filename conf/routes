@@ -25,4 +25,7 @@ GET     /message                    controllers.AsyncController.message
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 # regex
-GET   /items/$id<[0-9]+[a-z]*>    controllers.HomeController.show(id)
+GET /items/$id<[0-9]+[a-z]*> controllers.HomeController.show(id)
+
+# form
+GET   /form    controllers.HomeController.form

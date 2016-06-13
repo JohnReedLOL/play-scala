@@ -13,9 +13,11 @@ libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
-resolvers += "johnreed2 bintray" at "http://dl.bintray.com/content/johnreed2/maven"
+// resolvers += "johnreed2 bintray" at "http://dl.bintray.com/content/johnreed2/maven"
 
-libraryDependencies += "scala.trace" %% "scala-trace-debug" % "2.2.17" // I wrote this
+// libraryDependencies += "scala.trace" %% "scala-trace-debug" % "2.2.17" // I wrote this
+
+// libraryDependencies += "org.sorm-framework" % "sorm" % "0.3.16"
 
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.38"
 

@@ -3,7 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
-import scala.trace.Pos
+// import scala.trace.Pos
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -19,15 +19,16 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+    Ok.apply(views.html.index("Your new application is ready."))
   }
   
   def foo = Action {
-    Redirect(routes.HomeController.show(Pos() + "\nRedirected"))
+    Redirect(routes.HomeController.show( /*Pos() +*/ "\nRedirected"))
   }
 
   def show(toPrint: String) = Action {
-    Ok(toPrint + Pos())
+    Ok(toPrint /*+ Pos()*/).withCookies(
+      Cookie("theme", "blue"))
   }
   
   import play.api.http.HttpEntity
@@ -43,7 +44,7 @@ class HomeController @Inject() extends Controller {
         }
       Result(
         header = ResponseHeader(200, Map.empty),
-        body = HttpEntity.Strict(akka.util.ByteString( Pos() ), Some("text/plain"))
+        body = HttpEntity.Strict(akka.util.ByteString( /*Pos()*/"Pos" ), Some("text/plain"))
       )
     }
     
@@ -52,4 +53,26 @@ class HomeController @Inject() extends Controller {
     def redirect = Action {
         Redirect("https://www.google.com")
     }
+import play.api.data._
+import play.api.data.Forms._
+
+  case class UserData(name: String, age: Int)
+
+  def form = Action { request =>
+    val userForm: Form[UserData] = Form(
+      mapping(
+        "name" -> text,
+        "age" -> number
+      )(UserData.apply)(UserData.unapply)
+    )
+    val anyData = Map("name" -> "bob", "age" -> "21")
+    val intermediate: Form[UserData] = userForm.bind(anyData)
+    val userData: UserData = intermediate.get
+
+    val intermediate2: Form[UserData] = userForm.bindFromRequest()(request)
+    // val userData2: UserData = intermediate2.get // throws exception
+
+    Ok("Hi " + userData.name + " " + userData.age /*+ Pos()*/)
+  }
+
 }

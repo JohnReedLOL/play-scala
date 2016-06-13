@@ -13,6 +13,8 @@ libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
+libraryDependencies += "org.scala-lang.modules"  %% "scala-xml"      % "1.0.4"
+
 // resolvers += "johnreed2 bintray" at "http://dl.bintray.com/content/johnreed2/maven"
 
 // libraryDependencies += "scala.trace" %% "scala-trace-debug" % "2.2.17" // I wrote this
